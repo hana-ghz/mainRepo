@@ -1,0 +1,130 @@
+
+body{
+    background-color: #292b2c;
+    list-style: none;
+}
+
+a:hover{
+
+    color: black;
+}
+
+#navbarSupportedContent a:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: #4CAF50 ;
+  }
+
+.the-ul{
+    background-color: #bbbbbb;
+}
+
+li {
+    padding: 0 50px;
+  }
+
+.div1{
+    margin:auto;
+    background-color: #505050;
+    border-radius: 8px;
+    padding: 2px;
+    border-left: 3px solid #000099;
+    border-right: 3px solid #000099;
+}
+
+.div1 p{
+    padding: 2px;
+    margin-left: 2%;
+    border-left: 3px solid #46b5d1;
+}
+
+.div1 h3{
+    padding: 8px;
+}
+
+.soff{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .skills{
+      width: 500px;
+      
+  }
+
+  .div2 li{
+      margin: 20px 0;
+  }
+
+
+  .div2 h5{
+      color: white;
+  }
+
+  .div2 h5:hover{
+    color: #f0ad4e ;
+
+  }
+
+  hr.hr-text {
+    position: relative;
+      border: none;
+      height: 1px;
+      background: #999;
+  }
+  
+  hr.hr-text::before {
+      content: attr(data-content);
+      display: inline-block;
+      background: #fff;
+      font-weight: bold;
+      font-size: 2rem;
+      color: #999;
+      border-radius: 30rem;
+      padding: 0.2rem 2rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+.prog{
+    transition: transform .2s;
+    max-height: 300px; 
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid ;
+    margin-right: auto
+}
+
+.prog:hover{
+
+    transform: scale(1.1); 
+
+}
+
+.icons p{
+    color: #ddd;
+}
+
+.icons img{
+    transition: transform .2s;
+    margin: 20px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.icons img:hover{
+
+    transform: scale(1.1);
+
+}
