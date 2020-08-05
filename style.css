@@ -3,7 +3,9 @@ body{
     background-color: #292b2c;
     list-style: none;
 }
-
+*{
+   box-sizing : border-box ;
+}
 a:hover{
 
     color: black;
@@ -92,6 +94,7 @@ img:hover {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      
   }
 
 .prog{
@@ -128,3 +131,8 @@ img:hover {
     transform: scale(1.1);
 
 }
+
+@media (max-width: 575.98px) { 
+    width:100%;
+}
+
